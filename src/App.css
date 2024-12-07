@@ -80,14 +80,14 @@ h1 {
   font-weight: bold;
 }
 
-/* Header Styles */
+
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  background-color: #282c34; /* Dark background */
-  color: white; /* Text color */
+  background-color: #282c34;
+  color: white; 
 }
 
 .mainH {
@@ -100,7 +100,7 @@ h1 {
   padding: 0;
   margin: 0;
   display: flex;
-  gap: 20px; /* Space between links */
+  gap: 20px; 
 }
 
 .nav-links li {
@@ -108,29 +108,29 @@ h1 {
 }
 
 .nav-links a {
-  color: white; /* Link color */
-  text-decoration: none; /* Remove underline */
-  transition: color 0.3s ease; /* Smooth transition for hover */
+  color: white; 
+  text-decoration: none; 
+  transition: color 0.3s ease; 
 }
 
 .nav-links a:hover {
-  color: #61dafb; /* Highlight color on hover */
+  color: #61dafb; 
 }
 
 .dark-mode-toggle {
-  cursor: pointer; /* Pointer cursor for toggle */
+  cursor: pointer; 
 }
 
-/* Responsive styles */
+
 @media (max-width: 600px) {
   .header {
-    flex-direction: column; /* Stack elements on small screens */
-    align-items: flex-start; /* Align items to start */
+    flex-direction: column; 
+    align-items: flex-start; 
   }
   
   .nav-links a{
-    flex-direction: column; /* Stack links vertically */
-    gap: 10px; /* Space between links */
+    flex-direction: column; 
+    gap: 10px; 
     color: white;
   }
 }

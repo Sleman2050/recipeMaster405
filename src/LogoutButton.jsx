@@ -10,7 +10,7 @@ const LogoutButton = () => {
   const handleLogout = async () => {
     try {
       await signOut(auth);
-      navigate("/login"); // Redirect to the login page after logout
+      navigate("/login"); 
     } catch (error) {
       console.error("Logout Error:", error);
     }

@@ -17,12 +17,10 @@ const RecipeSearch = ({ darkMode }) => {
   const [maxTime, setMaxTime] = useState("");
   const [sortBy, setSortBy] = useState("popularity");
 
-  const navigate = useNavigate();
+
 
   
-  const handleNavigate = () => {
-    navigate('/cultural-exploration');
-  };
+
 
 
 
@@ -112,9 +110,7 @@ const RecipeSearch = ({ darkMode }) => {
             <button className="search-btn" onClick={handleSearch}>
               Search
             </button>
-            <button className="search-btn" onClick={handleNavigate}>
-              CulturalExploration
-            </button>
+          
       
            
           </div>

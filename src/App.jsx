@@ -7,7 +7,8 @@ import Registration from "./Registration";
 import { auth } from "./firebaseConfig";
 import DarkModeToggle from "./DarkModeToggle";
 import LogoutButton from "./LogoutButton";
-import CulturalExploration from "./AiGameComponents/CulturalExploration";
+
+//import CulturalExploration from "./AiGameComponents/CulturalExploration";
 
 const App = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -49,11 +50,7 @@ const App = () => {
           element={isAuthenticated ? <RecipeSearch /> : <Navigate to="/login" />}
         />
 
-        <Route
-
-          path="/cultural-exploration"
-          element={isAuthenticated ? <CulturalExploration /> : <Navigate to="/login" />}
-        />
+      
         <Route
           path="/recipe/:id"
           element={isAuthenticated ? <RecipeDetails /> : <Navigate to="/login" />}
@@ -63,6 +60,8 @@ const App = () => {
           element={isAuthenticated ? <Navigate to="/search" /> : <Navigate to="/login" />}
 
         />
+         
+
 
       </Routes>
 
