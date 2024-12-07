@@ -1,0 +1,98 @@
+/* RecipeDetails.css */
+.recipe-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.recipe-header-section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.recipe-title-style {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.recipe-image-style {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-meta-section {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.ingredients-section {
+  margin-bottom: 40px;
+}
+
+.ingredients-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.ingredients-section li {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.instructions-section {
+  width: 100%;
+  max-width: 800px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.instructions-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.back-button-style {
+  padding: 12px 25px;
+  background-color: #34495e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-right: 0px;
+  margin-bottom: 10px;
+
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4e657b;
+}
+.star {
+  cursor: pointer;
+  font-size: 2rem; /* Adjust size if needed */
+  color: grey; /* Default star color */
+  display: inline-block; /* Ensure stars are inline */
+  margin: 5px; /* Add some spacing */
+}
+
+.star.filled {
+  color: gold; /* Filled star color */
+}
+
+.rating-stars {
+  display: flex; /* Align stars horizontally */
+}
+
+.rating-stars span {
+  pointer-events: auto; /* Ensure stars can be clicked */
+}
+

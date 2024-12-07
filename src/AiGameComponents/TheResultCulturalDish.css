@@ -1,0 +1,65 @@
+.resultContainer {
+    background-color: #ffffff;
+    color: #333333;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    font-family: "Arial", sans-serif;
+}
+
+.resultContainer h2 {
+    color: #2c3e50;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.ingredientsSection,
+.stepsSection,
+.caloriesSection,
+.relationshipSection {
+    margin-top: 20px;
+    border-top: 1px solid #dddddd;
+    padding-top: 15px;
+}
+
+.ingredientsSection h3,
+.stepsSection h3,
+.caloriesSection h3,
+.relationshipSection h3 {
+    font-size: 1.5em;
+    color: #34495e;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: disc inside;
+    margin-left: 20px;
+}
+
+ol {
+    list-style: decimal inside;
+    margin-left: 20px;
+}
+
+.theResultText {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555555;
+}
+
+.ifNoInput {
+    font-size: 1.2em;
+    color: #777777;
+    text-align: center;
+}
+
+.dishName {
+    color: #d35400;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}

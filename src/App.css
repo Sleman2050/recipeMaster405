@@ -1,0 +1,136 @@
+/* App.css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #ff6347;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+button {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ff6347;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #e5533f;
+}
+
+input, textarea {
+  font-family: 'Roboto', sans-serif;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 12px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  background-color: #fff;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: #ff6347;
+  outline: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #282c34; /* Dark background */
+  color: white; /* Text color */
+}
+
+.mainH {
+  font-size: 2em;
+  margin: 0;  
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px; /* Space between links */
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  color: white; /* Link color */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease; /* Smooth transition for hover */
+}
+
+.nav-links a:hover {
+  color: #61dafb; /* Highlight color on hover */
+}
+
+.dark-mode-toggle {
+  cursor: pointer; /* Pointer cursor for toggle */
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column; /* Stack elements on small screens */
+    align-items: flex-start; /* Align items to start */
+  }
+  
+  .nav-links a{
+    flex-direction: column; /* Stack links vertically */
+    gap: 10px; /* Space between links */
+    color: white;
+  }
+}

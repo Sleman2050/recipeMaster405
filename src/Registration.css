@@ -1,0 +1,111 @@
+/* Registration.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.registration-container {
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 50px auto;
+}
+
+.registration-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+input {
+  padding: 12px;
+  margin: 10px 0;
+  width: 100%;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input:focus {
+  border-color: #5d5555;
+  outline: none;
+}
+
+.submit-button {
+  padding: 12px;
+  background-color: #2c3e50;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.submit-button:hover {
+  background-color: #394857;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+}
+
+.toggle {
+  text-align: center;
+  margin-top: 15px;
+}
+#toggle-button {
+  background-color: #2c3e50; 
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+}
+
+#toggle-button:hover {
+  background-color: #4e657b; 
+}
+
+
+
+.google-signup-button:hover {
+  background-color: #357ae8;
+}
+
+
+.google-signup-button {
+  background-color: #4285F4;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 12px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.google-icon {
+  margin-right: 8px;
+  font-size: 20px; 
+}
+
