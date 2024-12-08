@@ -2,7 +2,7 @@
 
 # Recipe Master react app
 
-Project for searching up recipes and it has filtering based on several factors like cuisine, diet type , maxTime
+Project for searching up recipes and it has filtering based on several factors like cuisine, diet type , maxTime.Also, you can write notes about the recipes and return to it anytime 
 
 **maxTime : the length of time it takes to cook**
 
@@ -34,4 +34,12 @@ or
 ### Recipe Details Page : 
 
 ![لقطة شاشة 2024-12-04 054247](https://github.com/user-attachments/assets/473e9375-8bf2-4495-8478-d7f3517c479c)
+**We added a feature that allow the user to add his notes about each recipe. So, he can return to it anytime.
+Also, we enhanced the way that the app shows the instructions to the user**
+
+**(See the below image)**
+
+![لقطة شاشة 2024-12-08 041722](https://github.com/user-attachments/assets/8d3c801f-7808-4da4-b166-f0bc5158a412)
+
+
 
